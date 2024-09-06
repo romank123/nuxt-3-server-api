@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev:clean": "rm -rf node_modules && rm -rf package-lock.json && npm i --force && nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "author": {
+    "email": "behon.baker@yahoo.com",
+    "name": "Behon Baker",
+    "url": "https://behonbaker.com"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "nuxt": "^3.13.0"
+  },
+  "dependencies": {
+    "@headlessui/tailwindcss": "^0.2.1",
+    "@headlessui/vue": "^1.7.22",
+    "@pinia/nuxt": "^0.5.4",
+    "@tailwindcss/forms": "^0.5.8",
+    "@vee-validate/rules": "^4.13.2",
+    "dayjs": "^1.11.13",
+    "joi": "^17.13.3",
+    "mongoose": "^8.6.0",
+    "nuxt-icon": "^0.6.10",
+    "pinia": "^2.2.2",
+    "vee-validate": "^4.13.2",
+    "vue-toastification": "next",
+    "vue3-easy-data-table": "^1.5.47"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
